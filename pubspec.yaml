@@ -1,0 +1,85 @@
+name: countdowntimerlist
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg:
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
+  fonts:
+    - family: RobotoBlack
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+
+    - family: RobotoBlackItalic
+      fonts:
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+
+    - family: RobotoBold
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+
+    - family: RobotoBoldItalic
+      fonts:
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+
+    - family: RobotoItalic
+      fonts:
+        - asset: assets/fonts/Roboto-Italic.ttf
+
+    - family: RobotoLight
+      fonts:
+        - asset: assets/fonts/Roboto-Light.ttf
+
+    - family: RobotoLightItalic
+      fonts:
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+
+    - family: RobotoMediumItalic
+      fonts:
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+
+    - family: RobotoRegular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+    - family: RobotoThin
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+
+    - family: RobotoThinItalic
+      fonts:
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
